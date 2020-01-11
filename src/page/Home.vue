@@ -19,10 +19,18 @@
             <!-- <img slot="icon" src="../assets/grid_icon.png"> -->
             {{i}}
           </grid-item>
+          <grid-item label="Grid" v-for="i in 4" :key="i">
+            <!-- <img slot="icon" src="../assets/grid_icon.png"> -->
+            {{i}}
+          </grid-item>
         </grid>
       </swiper-item>
       <swiper-item>
         <grid>
+          <grid-item label="Grid" v-for="i in 4" :key="i">
+            <!-- <img slot="icon" src="../assets/grid_icon.png"> -->
+            {{i}}
+          </grid-item>
           <grid-item label="Grid" v-for="i in 4" :key="i">
             <!-- <img slot="icon" src="../assets/grid_icon.png"> -->
             {{i}}
